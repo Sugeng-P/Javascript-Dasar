@@ -1,7 +1,15 @@
 let jumlahAngkot = 10;
+let angkotBeroprasi = 6;
 let noAngkot = 1;
 
-while (noAngkot <= jumlahAngkot) { 
+//menggunakan while()
+while (noAngkot <= angkotBeroprasi) { 
     console.log(`angkot NO ${noAngkot} beroprasi dengan baik`);
-    noAngkot++;
+    
+noAngkot++;
+}
+
+//menggunakan for()
+for( noAngkot = angkotBeroprasi +1; noAngkot <= jumlahAngkot; noAngkot++) {
+    console.log(`angkot NO ${noAngkot} sedang tidak beroprasi`);
 }
